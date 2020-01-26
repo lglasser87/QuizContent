@@ -1,4 +1,4 @@
-var total_seconds = 30 * 1;
+var total_seconds = 120 * 1;
 var c_minutes = parseInt(total_seconds / 60);
 var c_seconds = parseInt(total_seconds % 60);
 var timer;
