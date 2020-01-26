@@ -1,0 +1,113 @@
+#quiz-time-left{
+    float:right;
+    color:black
+}
+body {
+    background-color: white;
+    line-height:1;
+    color: white;
+}
+
+.jumbotron {
+    background-color:purple !important;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+
+h1 {
+  font-size: 5vw;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+}
+
+.ui-widget-header {
+    background-image: none !important;
+    background-color: #f4decb !important; 
+}
+
+label{
+  display: inline;
+}  
+
+h3, #next {
+  text-align: center;
+  display: inline-block;
+  border-radius: 10%;
+}
+
+#result {
+  font-family: 'Press Start 2P', cursive !important;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #036;
+}
+
+input[name="option"] {
+  float:left;
+  
+}
+
+#form div{
+  margin:auto;
+  max-width: 205px;
+}
+
+#progressbar {
+  float: none;
+  margin: auto;
+  margin-top: 20px;
+   
+  width: 50%;
+ }
+
+#container {
+  text-align: center;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.button {
+    display: inline-block;
+    padding: 1em;
+    background-color: blue;
+    text-decoration: none !important; 
+    color: white !important;
+} 
+body{
+  text-align: center;
+}
+
+.progress-bar {
+  float: left;
+  width: 0;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #337ab7;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  -webkit-transition: width .6s ease;
+       -o-transition: width .6s ease;
+          transition: width .6s ease;
+}
